@@ -22,3 +22,12 @@ Number::Number(int i)
 
 	fillData();
 }
+
+Number::~Number()
+{
+	cout<<endl;
+	printData();
+	delete[]arr;
+
+	cout<<"Array Address Has Been Released"<<endl;
+}
