@@ -40,3 +40,12 @@ void Number::printData()
 	}
 }
 
+void Number::fillData()
+{
+	for (int i = 1;i <= panjang;i++)
+	{
+		cout <<i<<" = ";cin>>arr[i];
+	}
+
+	cout<<endl;
+}
