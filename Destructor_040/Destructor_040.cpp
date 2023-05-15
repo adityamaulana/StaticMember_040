@@ -31,3 +31,12 @@ Number::~Number()
 
 	cout<<"Array Address Has Been Released"<<endl;
 }
+
+void Number::printData()
+{
+	for (int i = 1;i <= panjang;i++)
+	{
+		cout<<i<<" = "<<arr[i]<<endl;
+	}
+}
+
