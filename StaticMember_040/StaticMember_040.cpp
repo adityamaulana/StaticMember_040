@@ -15,9 +15,10 @@ class mahasiswa {
 		mahasiswa(string pnama) : nama(pnama) {setID();}
 };
 
-int mahasiswa::setID() {
-	id = ++nim;
+void mahasiswa::setID() 
 
+{
+	id = ++nim;
 }
 
 void mahasiswa::printAll() {
