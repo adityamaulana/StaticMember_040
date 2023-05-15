@@ -14,3 +14,11 @@ public:
 	void printData();
 	void fillData();
 };
+
+Number::Number(int i)
+{
+	panjang = i;
+	arr = new int [i];
+
+	fillData();
+}
