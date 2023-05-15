@@ -18,3 +18,11 @@ public:
 
 } book;
 
+int main()
+{
+	book.setTitle("Math");
+	cout << book.getTitle();
+	cout << book.setTitle("Math").getTitle();
+
+	return 0;
+}
