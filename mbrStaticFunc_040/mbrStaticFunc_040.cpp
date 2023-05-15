@@ -42,3 +42,24 @@ void Student::printAll()
 
 	cout<<endl;
 }
+
+int main() 
+
+{
+	Student Mhs1("Deddy Mahendra Desta");
+	Student Mhs2("Vincent Ryan Rompies");
+
+	Student::setNim(9);
+
+	Student Mhs3("Coki Pardede");
+	Student Mhs4("Tretan Muslim");
+
+	Mhs1.printAll();
+	Mhs2.printAll();
+	Mhs3.printAll();
+	Mhs4.printAll();
+
+	cout<<"Access from outside of the object = "<<Student::getNim()<<endl;
+
+	return 0;
+}
