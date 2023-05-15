@@ -27,5 +27,17 @@ void mahasiswa::printAll() {
 
 }
 
+int main() {
+	mahasiswa mhs1("Osama Bin Laden");
+	mahasiswa mhs2("George W. Bush");
+	mahasiswa mhs3("Muammar Khadaffi");
+	mahasiswa mhs4("Jesus Christ");
+	
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
 
+	return 0;
+}
 
