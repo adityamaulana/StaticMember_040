@@ -28,3 +28,16 @@ Student::Student(int iNim)
 	nim = iNim;
 }
 
+Student::Student(string iName)
+{
+	name = iName;
+}
+
+Student::Student(int iNim, string iName)
+{
+	nim = iNim;
+	name = iName;
+}
+
+
+
