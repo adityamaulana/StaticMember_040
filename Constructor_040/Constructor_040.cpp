@@ -5,7 +5,7 @@ using namespace std;
 class Student
 {
 private:
-	int main;
+	int nim;
 	string name;
 
 public:
@@ -16,3 +16,15 @@ public:
 
 void print();
 };
+
+Student::Student()
+{
+	nim = 0;
+	name = "";
+}
+
+Student::Student(int iNim)
+{
+	nim = iNim;
+}
+
