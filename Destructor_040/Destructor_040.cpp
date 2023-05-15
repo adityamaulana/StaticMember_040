@@ -49,3 +49,12 @@ void Number::fillData()
 
 	cout<<endl;
 }
+
+int main()
+{
+	Number learncpp(3);
+	Number *ptrLearncpp = new Number(5);
+	delete ptrLearncpp;
+
+	return 0;
+}
